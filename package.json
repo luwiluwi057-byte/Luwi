@@ -1,19 +1,19 @@
 {
-  "name": "DANUWA-MD",
+  "name": "LUWI-MD",
   "version": "1.0.0",
   "description": "A Powerfull Whatsapp Bot",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name DANUWA-MD",
-    "stop": "pm2 stop DANUWA-MD",
-    "restart": "pm2 restart DANUWA-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name LUWI-MD",
+    "stop": "pm2 stop LUWI-MD",
+    "restart": "pm2 restart LUWI-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.16",
-    "api-dylux": "^1.8.5",
-    "axios": "^1.9.0",
-    "browser-id3-writer": "^6.2.0",
-    "cheerio": "^1.0.0",
+    "@whiskeysockets/baileys": "^7.0.0.9",
+    "api-dylux": "^0.4.7",
+    "axios": "^4.0.1",
+    "browser-id3-writer": "^6.3.1",
+    "cheerio": "^0.0.39",
     "express": "latest",
     "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^5.2.0",
@@ -31,6 +31,6 @@
     "qrcode-terminal": "^0.12.0",
     "tmp": "^0.2.3",
     "util": "^0.12.4",
-    "vm": "^0.1.0"
+    "vm": "^0.0.2"
   }
 }
